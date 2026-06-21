@@ -2,7 +2,7 @@ package DataType;
 
 public class IntDemo1
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         int no1,no2,ans;
         no1 = 10;
