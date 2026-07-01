@@ -1,4 +1,4 @@
-package ifElse;
+package conditionalStatement;
 import java.util.Scanner;
 
 public class IfElsedemo1
