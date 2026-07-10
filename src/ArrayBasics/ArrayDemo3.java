@@ -25,5 +25,6 @@ public class ArrayDemo3 {
 				}
 			}
 		}
+		scan.close();
 	}
 }

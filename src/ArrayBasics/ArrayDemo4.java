@@ -19,5 +19,6 @@ public class ArrayDemo4 {
 			}
 			System.out.println();
 		}
+		scan.close();
 	}
 }

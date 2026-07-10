@@ -32,5 +32,6 @@ public class ArrayDemo6 {
 			}
 			System.out.println("Column " + (i + 1) + " Sum = " + csum);
 		}
+		scan.close();
 	}
 }

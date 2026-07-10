@@ -23,5 +23,6 @@ public class ArrayDemo2 {
 		}
 		// End of second loop
 		System.out.println("Even sum = " + sum);
+		scan.close();
 	}
 }
