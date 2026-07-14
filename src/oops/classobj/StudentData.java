@@ -1,4 +1,4 @@
-package oops.practice1;
+package oops.classobj;
 
 public class StudentData {
 	
