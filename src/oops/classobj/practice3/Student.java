@@ -22,7 +22,7 @@ public class Student {
         System.out.println("Enter marks : ");
         marks = scan.nextInt();
 
-//        scan.close();
+        scan.close();
     }
 
     void displayData() {
