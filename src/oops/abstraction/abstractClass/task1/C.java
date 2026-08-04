@@ -1,4 +1,4 @@
-package oops.abstraction.abstractClass;
+package oops.abstraction.abstractClass.task1;
 
 public class C extends B{
 	
