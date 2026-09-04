@@ -6,6 +6,12 @@ public class TestApp3 {
 		// StringIndexOutOfBoundsException
 		String name = "henil";
 		
-		System.out.println(name.charAt(5));
+		try {
+			System.out.println(name.charAt(5));			
+		} 
+		catch (StringIndexOutOfBoundsException e) {
+			e.printStackTrace();
+			System.out.println("Exception handaled by catch block.");
+		}
 	}
 }
