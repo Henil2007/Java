@@ -10,12 +10,19 @@ public class TestApp5 {
 		String value;
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter value : ");
-		value = sc.nextLine();
+		try {
+			System.out.println("Enter value : ");
+			value = sc.nextLine();
+			
+			int value1 = Integer.parseInt(value);
+			
+			System.out.println("Integer value : " + value1);			
+		} 
+		catch (NumberFormatException e) {
+			e.printStackTrace();
+			System.out.println("Exception handeled by catch block.");
+		}
 		
-		int value1 = Integer.parseInt(value);
-		
-		System.out.println("Integer value : " + value1);
 		
 		sc.close();
 	}
