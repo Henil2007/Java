@@ -1,0 +1,28 @@
+package exception;
+
+public class A {
+	
+	public void TestApp1() throws ArithmeticException {
+		System.out.println("A : TestApp1()");
+	}
+}
+/*
+-----------------------------------
+Rules of Exception Handling with Method Overriding
+----------------------------------------------------------
+
+There are many rules if we talk about method overriding with exception handling.
+
+Some of the rules are listed below:
+
+==> If the superclass method does not declare an exception
+
+	--> subclass overridden method cannot declare the checked exception 
+	--> but it can declare unchecked exception.
+
+==> If the superclass method declares an exception, 
+	--> subclass overridden method can declare same, 
+	--> subclass exception 
+	--> or no exception 
+	--> but cannot declare parent exception.
+*/
