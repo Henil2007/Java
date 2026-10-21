@@ -6,7 +6,7 @@ public class TestApp2 {
 	
 	public static void main(String[] args) {
 		
-ArrayList list = new ArrayList();
+		ArrayList list = new ArrayList();
 		
 		list.add("Henil");
 		list.add(123);
