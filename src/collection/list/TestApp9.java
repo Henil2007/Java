@@ -34,8 +34,8 @@ public class TestApp9 {
         list.addFirst("XYZ");
         list.addLast("ABC");
 
-        list.clear();
-        System.out.println("List size : " + list.size());
+//        list.clear();
+//        System.out.println("List size : " + list.size());
 
         System.out.println("===== UPDATED LIST =====");
 
