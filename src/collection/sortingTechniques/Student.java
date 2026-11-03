@@ -1,6 +1,6 @@
 package collection.sortingTechniques;
 
-public class Student implements Comparable<Student>{
+public class Student{
 	private int rno;
 	private String name;
 	private int std;
@@ -47,17 +47,22 @@ public class Student implements Comparable<Student>{
 	}
 
 	// Marks wise sorting
-	@Override
-	public int compareTo(Student s2) {
-		if (getMarks() > s2.getMarks()) {
-			return 1;
-		} else if (getMarks() < s2.getMarks()) {
-			return -1;
-		}
-		else {
-			return 0;
-		}
-	}
+//	@Override
+//	public int compareTo(Student s2) {
+//		if (getMarks() > s2.getMarks()) {
+//			return 1;
+//		} else if (getMarks() < s2.getMarks()) {
+//			return -1;
+//		}
+//		else {
+//			return 0;
+//		}
+//	}
+
+//	@Override
+//	public int compareTo(Student s2) {
+//		return getName().compareTo(s2.getName());
+//	}
 
 //	@Override
 //	public String toString() {

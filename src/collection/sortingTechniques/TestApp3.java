@@ -30,7 +30,7 @@ public class TestApp3 {
         }
 
         // Sorting
-        Collections.sort(list);
+        Collections.sort(list,new MarksWiseComparator());
 
         System.out.println("\nSorted data:");
 
